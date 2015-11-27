@@ -25,7 +25,7 @@ public class LoopArraysProgram {
 		
 		int frequencyMax = LoopArraysLibrary.maximum(result);
 
-		System.out.println("y");
+		System.out.println("Frequency");
 		System.out.println("^");
 		System.out.println("|");
 		
@@ -48,7 +48,7 @@ public class LoopArraysProgram {
 			System.out.print("-");
 
 		}
-		System.out.println(" >x");		
+		System.out.println(" >Bucket");		
 		System.out.println("    Bucket     | Frequency");
 		System.out.println("--------------------------");
 		
