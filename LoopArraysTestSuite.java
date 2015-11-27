@@ -43,14 +43,17 @@ public class LoopArraysTestSuite {
                           ,new double[] { 1.1, 1.0, 1.2, 3.8, 2.6, 3.2 }
                           ,new int[] { 3, 0, 0, 1, 1, 1 });
         testFrequencyTable(2.0, 6.0, 4
-                          ,new double[] { 2.1, 3.3, 4.5, 5.5 }
-                          ,new int[] { 1, 1, 1, 1});
+                          ,new double[] { 3.1, 3.3, 4.5, 5.5 }
+                          ,new int[] { 0, 2, 1, 1});
         testFrequencyTable(3.0, 13.0, 10
                           ,new double[] { 3.5, 4.5, 5.6, 7.8, 9.0, 11.4, 12.0 }
                           ,new int[] { 1, 1, 1, 0, 1, 0, 1, 0, 1, 1 });
         testFrequencyTable(-4.0, -1.0, 6
                           ,new double[] { -1.0, -1.4, -2.3, -2.6, -3.3, -3.8}
                           ,new int[] { 1, 1, 1, 1, 0, 1});
+        
+        
+        // System.out.print(" frequency table is correct.");
         
     }
 
