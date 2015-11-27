@@ -48,8 +48,21 @@ public class LoopArraysProgram {
 			System.out.print("-");
 
 		}
-		System.out.println(" >x");
+		System.out.println(" >x");		
+		System.out.println("    Bucket     | Frequency");
+		System.out.println("--------------------------");
 		
+		
+		double[] range = new double[numBuckets + 1];
+		
+		double interval = ((max - min) / numBuckets);
+		for(int i = 0; i <= numBuckets; i++) {
+	        range[i]  = min + (interval * i);
+	      }
+		
+		for (int l = 0; l < numBuckets; l++) {
+		System.out.println(range[l] + " <= " + "i" + " < " + range[l+1] + "  |" + "   " + result[l]); 
+		}
 		
 	}
 
